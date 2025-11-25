@@ -1,46 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Andy Lau's Bio</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy Lau | Chemistry & Medicine</title>
+  <link rel="stylesheet" href="test.css">
 </head>
 <body>
-<header>
-<img src="profile-picture.png" alt="Andy Lau" class="profile-img">
-<h1>Andy Lau</h1>
-<p>Science Management with a Sequence in Biotechnology</p>
-<h3>Social Media:</h3>
-<p>
-<a href="https://x.com/andylau_04?s=21&t=lamd8ZgW0KYOhMOeEG-PCg"
-target="_blank">Twitter</a> |
-<a href="https://www.linkedin.com/in/andrew-lau04/"
-target="_blank">LinkedIn</a>
-</p>
-</header>
-<main>
-<section class="bio">
-<h2>About Me</h2>
-<p>Aspiring physician studying Science Management with hands-on research in organic synthesis and clinical experience, driven by a strong commitment to mentorship and community leadership.</p>
-<!-- Add more paragraphs as needed -->
-    <h2>Why Medicine</h2>
-    <p>To me, working in healthcare means combining a passion for education, empathy, and collaboration to make a direct impact on people's lives. I feel most fulfilled when serving a greater purpose than myself. I am deeply drawn to the lifelong learning that defines medicine and the flexibility it offers to care, teach, lead, and conduct research. My humanities education at Claremont McKenna College has further shaped my desire to approach medicine with curiosity, compassion, and a broader understanding of the human experience.</p>
-</section>
-<section class="projects">
-<h2>Professional Work</h2>
-<ul>
-    <li><a href="https://docs.google.com/document/d/1WdN-DwRBVmC6R_rakNA87mK0btdaiDXE38HLFbst9MA/edit?tab=t.0">Research Synopsis</a></li>
-<li><a href="https://docs.google.com/document/d/1TdSB7MQu97Q2JVJ6F4fuAgqYG55j8-_jfk4G-WAJ-dE/edit?tab=t.0">Silver and Iron Catalyzed Methods for Sustainable Amine Synthesis - Manuscript</a></li>
-<li><a href="https://docs.google.com/presentation/d/1w2Ey1jZJwDolDXyEBqwKg4hpPNnjIoG8Jr-IDCCG1VM/edit?slide=id.g2ebf660bffd_0_608#slide=id.g2ebf660bffd_0_608">Silver and Iron Catalyzed Methods for Sustainable Amine Synthesis - Talk</a></li>
-<li><a href="https://docs.google.com/document/d/12y57tG3HWa5HkrxiNP0Mmf0pTNhyGYr_dnrXexz1Vwo/edit?tab=t.0">CV</a></li>
-<!-- Add more list items as needed -->
-</ul>
-</section>
-</main>
-<footer>
-<p>Contact me at <a
-href="mailto:alau26@cmc.edu">alau26@cmc.edu</a></p>
-</footer>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="molecule-blob molecule-blob-1"></div>
+      <div class="molecule-blob molecule-blob-2"></div>
+
+      <img src="profile-picture.png" alt="Andy Lau" class="profile-img">
+
+      <h1 class="name">Andy Lau</h1>
+      <p class="tagline">Science Management • Biotechnology • Future Physician</p>
+
+      <p class="chem-formula">C<sub>u</sub>riosity + C<sub>a</sub>re → MD</p>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#professional">Professional Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="social-bar">
+        <span>Find me online:</span>
+        <a href="https://x.com/andylau_04?s=21&t=lamd8ZgW0KYOhMOeEG-PCg" target="_blank">X / Twitter</a>
+        <span class="dot">·</span>
+        <a href="https://www.linkedin.com/in/andrew-lau04/" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT / BIO SECTION -->
+      <section id="about" class="card bio">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          Aspiring physician studying Science Management with hands-on research in organic synthesis and
+          clinical experience, driven by a strong commitment to mentorship and community leadership.
+        </p>
+        <p>
+          To me, working in healthcare means combining a passion for education, empathy, and collaboration
+          to make a direct impact on people's lives. I feel most fulfilled when serving a greater purpose than myself.
+          I am deeply drawn to the lifelong learning that defines medicine and the flexibility it offers to care,
+          teach, lead, and conduct research. My humanities education at Claremont McKenna College has further shaped
+          my desire to approach medicine with curiosity, compassion, and a broader understanding of the human experience.
+        </p>
+
+        <div class="lab-tags">
+          <span class="pill">Organic Synthesis</span>
+          <span class="pill">Antibiotic Discovery</span>
+          <span class="pill">Clinical Volunteering</span>
+          <span class="pill">Science Communication</span>
+        </div>
+
+        <div class="lab-grid">
+          <div class="lab-item">
+            <h3>Bench Chemistry</h3>
+            <p>Experience with catalysis, reaction optimization, and structure–function thinking applied to real systems.</p>
+          </div>
+          <div class="lab-item">
+            <h3>Translational Focus</h3>
+            <p>Motivated by projects that bridge basic science with patient care and public health impact.</p>
+          </div>
+          <div class="lab-item">
+            <h3>Mentorship & Teaching</h3>
+            <p>Committed to supporting peers and younger students through coaching, tutoring, and community outreach.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROFESSIONAL / PROJECTS SECTION -->
+      <section id="professional" class="card projects">
+        <h2 class="section-title">Professional Work</h2>
+        <ul class="project-list">
+          <li class="project-item">
+            <span class="project-label">Snapshot</span>
+            <a href="https://docs.google.com/document/d/1WdN-DwRBVmC6R_rakNA87mK0btdaiDXE38HLFbst9MA/edit?tab=t.0" target="_blank">
+              Research Synopsis
+            </a>
+            <p class="project-desc">
+              Overview of laboratory, clinical, and leadership experiences with a focus on translational impact.
+            </p>
+          </li>
+
+          <li class="project-item">
+            <span class="project-label">Manuscript</span>
+            <a href="https://docs.google.com/document/d/1TdSB7MQu97Q2JVJ6F4fuAgqYG55j8-_jfk4G-WAJ-dE/edit?tab=t.0" target="_blank">
+              Silver and Iron Catalyzed Methods for Sustainable Amine Synthesis
+            </a>
+            <p class="project-desc">
+              Method development in catalysis with potential relevance to pharmaceutical and agrochemical synthesis.
+            </p>
+          </li>
+
+          <li class="project-item">
+            <span class="project-label">Talk</span>
+            <a href="https://docs.google.com/presentation/d/1w2Ey1jZJwDolDXyEBqwKg4hpPNnjIoG8Jr-IDCCG1VM/edit?slide=id.g2ebf660bffd_0_608#slide=id.g2ebf660bffd_0_608" target="_blank">
+              Sustainable Amine Synthesis – Research Presentation
+            </a>
+            <p class="project-desc">
+              Conference-style presentation translating mechanistic chemistry into an accessible narrative.
+            </p>
+          </li>
+
+          <li class="project-item">
+            <span class="project-label">CV</span>
+            <a href="https://docs.google.com/document/d/12y57tG3HWa5HkrxiNP0Mmf0pTNhyGYr_dnrXexz1Vwo/edit?tab=t.0" target="_blank">
+              Curriculum Vitae
+            </a>
+            <p class="project-desc">
+              Academic record, research experience, clinical involvement, and leadership activities.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <p class="contact-line">
+        Contact: <a href="mailto:alau26@cmc.edu">alau26@cmc.edu</a>
+      </p>
+      <p class="footer-note">
+        Built with HTML &amp; CSS · Inspired by molecules, reactions, and the people they serve.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
